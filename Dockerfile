@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/library-management-system.jar /app/library-management-system.jar
 
 # Expose the port that the application runs on
-EXPOSE 5000
+EXPOSE 8081
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "library-management-system.jar"]
