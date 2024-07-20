@@ -1,2 +1,4 @@
-Learned about the Integration of JIRA with GitHub
-Jira is Awesome Tool
+#/bin/bash
+sudo apt-get update
+sudo apt-get install upgrade
+sudo apt-get install docker.io
